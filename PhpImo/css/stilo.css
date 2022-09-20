@@ -1,0 +1,45 @@
+body {
+    margin:0;
+    font-family:var(-webkit-tap-highlight-color);
+    font-size:medium;
+    font-weight:600;
+    line-height:normal;
+    color: #ffffff;
+    text-align:center;
+    background: rgb(13,7,111);
+    background: linear-gradient(90deg, rgb(37, 28, 194) 0%, rgba(128,41,14,1) 49%, rgba(110,2,115,1) 100%);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow:
+    0.3px 3.5px 1.4px rgba(0, 0, 0, 0.086),
+    0.8px 7.8px 3.1px rgba(0, 0, 0, 0.116),
+    1.3px 13.3px 5.3px rgba(0, 0, 0, 0.136),
+    2.1px 20.5px 8.2px rgba(0, 0, 0, 0.15),
+    3px 30.4px 12.2px rgba(0, 0, 0, 0.161),
+    4.5px 44.7px 17.9px rgba(0, 0, 0, 0.17),
+    6.7px 67px 26.8px rgba(0, 0, 0, 0.178),
+    10.7px 106.7px 42.7px rgba(0, 0, 0, 0.185),
+    20px 200px 80px rgba(0, 0, 0, 0.2);
+}
+th {
+    color:#ffffff;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    color: #f8f9fa;
+}
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+}

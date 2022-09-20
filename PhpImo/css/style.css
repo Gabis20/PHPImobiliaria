@@ -1,0 +1,13 @@
+body {
+    margin:0;
+    font-family:var(-webkit-tap-highlight-color);
+    font-size:medium;
+    font-weight:400;
+    line-height:normal;
+    color: #080000;
+    text-align:left;
+    background: rgb(238,27,27);
+    background: linear-gradient(90deg, rgba(238,27,27,1) 0%, rgba(27,147,187,1) 49%, rgba(0,242,247,1) 100%);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
